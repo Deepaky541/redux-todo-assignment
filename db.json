@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "laugh",
+      "status": true,
+      "id": 3
+    },
+    {
+      "title": "love",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "sleep",
+      "status": false,
+      "id": 5
+    }
+  ]
+}
