@@ -21,11 +21,15 @@ export const Editpages = () => {
         })
         .catch((e)=>dispatch(updateTodoFailure(e)))
     }
+    const backToHomepage=()=>{
+        navigate("/")
+    }
 
   return (
     <div>
         <input type="text" onChange={(e)=>setdata(e.target.value)} />
         <button onClick={()=>{updateTodo(id,data)}} >update</button>
+        <button onClick={backToHomepage}>back to homepage</button>
     </div>
   )
 }
